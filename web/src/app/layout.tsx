@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { AppShell } from "@/components/shell/app-shell";
 import { getSidebarCounts } from "@/lib/stats";
+export const dynamic = 'force-dynamic';
 
 const inter = Inter({
   variable: "--font-inter",
